@@ -1,0 +1,31 @@
+_id: req_d156c6d715174405b79b9849b32fe807
+type: Request
+parentId: wrk_c10ebd75a7d4409fb0f66dcafdac6082
+modified: 1671439578830
+created: 1671438680724
+url: "{{ _.url }}/api/login_check"
+name: LOGIN
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username" : "may",
+    	"password" : "123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: ""
+metaSortKey: -1671438680725
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

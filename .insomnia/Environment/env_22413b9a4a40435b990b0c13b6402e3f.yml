@@ -1,0 +1,17 @@
+_id: env_22413b9a4a40435b990b0c13b6402e3f
+type: Environment
+parentId: env_00792985fbeb22059c03401407edb726d4c7e975
+modified: 1671439128599
+created: 1671438820047
+name: DEV
+data:
+  url: http://localhost:8181
+  token_refresh: "{% response 'body', 'req_d156c6d715174405b79b9849b32fe807',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+dataPropertyOrder:
+  "&":
+    - url
+    - token_refresh
+color: null
+isPrivate: false
+metaSortKey: 1671438820048
